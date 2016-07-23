@@ -5,13 +5,27 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Montserrat', sans-serif;
+	color: #eee;
 }
 h1{
 	font-size: 36px;
-	color: #fff;
 	margin-top: 30px;
 	line-height: 1;
-	margin-bottom: 18px;
+	margin-bottom: 30px;
+}
+h2{
+	font-size: 26px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+h2 a {
+	color: rgba(28, 170, 217, 1);
+}
+h2 a:hover, h2 a:active, h2 a:active, h2 a:visited {
+	color: rgba(28, 170, 217, 1);
+}
+h3{
+	font-size: 22px;
 }
 .top-bar{
 	background: #2c3e50;
@@ -84,9 +98,9 @@ h1{
 	margin-top: 30px;
 }
 .user img{
-	width: 150px;
-	height: 150px;
-	margin-top: 150px;
+	width: 160px;
+	height: 160px;
+	margin-top: 120px;
 	margin-bottom: 20px;
 }
 .social-icons a i.fa{
